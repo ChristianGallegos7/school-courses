@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "school-courses", "school-courses\school-courses.csproj", "{D9EF3F74-4553-4738-B1F6-B06C59916D5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{E86E1AB1-35AB-4816-98C8-5BABF2CCA392}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{DD2243A7-6804-4F49-B235-317087806B17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9EF3F74-4553-4738-B1F6-B06C59916D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9EF3F74-4553-4738-B1F6-B06C59916D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9EF3F74-4553-4738-B1F6-B06C59916D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9EF3F74-4553-4738-B1F6-B06C59916D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E86E1AB1-35AB-4816-98C8-5BABF2CCA392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E86E1AB1-35AB-4816-98C8-5BABF2CCA392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E86E1AB1-35AB-4816-98C8-5BABF2CCA392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E86E1AB1-35AB-4816-98C8-5BABF2CCA392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD2243A7-6804-4F49-B235-317087806B17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2243A7-6804-4F49-B235-317087806B17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2243A7-6804-4F49-B235-317087806B17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2243A7-6804-4F49-B235-317087806B17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

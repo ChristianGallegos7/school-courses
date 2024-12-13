@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chris\\source\\repos\\school-courses\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E86E1AB1-35AB-4816-98C8-5BABF2CCA392}|Domain\\Domain.csproj|c:\\users\\chris\\source\\repos\\school-courses\\domain\\calificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86E1AB1-35AB-4816-98C8-5BABF2CCA392}|Domain\\Domain.csproj|solutionrelative:domain\\calificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86E1AB1-35AB-4816-98C8-5BABF2CCA392}|Domain\\Domain.csproj|c:\\users\\chris\\source\\repos\\school-courses\\domain\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86E1AB1-35AB-4816-98C8-5BABF2CCA392}|Domain\\Domain.csproj|solutionrelative:domain\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86E1AB1-35AB-4816-98C8-5BABF2CCA392}|Domain\\Domain.csproj|c:\\users\\chris\\source\\repos\\school-courses\\domain\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86E1AB1-35AB-4816-98C8-5BABF2CCA392}|Domain\\Domain.csproj|solutionrelative:domain\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86E1AB1-35AB-4816-98C8-5BABF2CCA392}|Domain\\Domain.csproj|c:\\users\\chris\\source\\repos\\school-courses\\domain\\precio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86E1AB1-35AB-4816-98C8-5BABF2CCA392}|Domain\\Domain.csproj|solutionrelative:domain\\precio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86E1AB1-35AB-4816-98C8-5BABF2CCA392}|Domain\\Domain.csproj|c:\\users\\chris\\source\\repos\\school-courses\\domain\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E86E1AB1-35AB-4816-98C8-5BABF2CCA392}|Domain\\Domain.csproj|solutionrelative:domain\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Photo.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\school-courses\\Domain\\Photo.cs",
+              "RelativeDocumentMoniker": "Domain\\Photo.cs",
+              "ToolTip": "C:\\Users\\chris\\source\\repos\\school-courses\\Domain\\Photo.cs",
+              "RelativeToolTip": "Domain\\Photo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T02:27:18.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Instructor.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\school-courses\\Domain\\Instructor.cs",
+              "RelativeDocumentMoniker": "Domain\\Instructor.cs",
+              "ToolTip": "C:\\Users\\chris\\source\\repos\\school-courses\\Domain\\Instructor.cs",
+              "RelativeToolTip": "Domain\\Instructor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T01:29:53.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Precio.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\school-courses\\Domain\\Precio.cs",
+              "RelativeDocumentMoniker": "Domain\\Precio.cs",
+              "ToolTip": "C:\\Users\\chris\\source\\repos\\school-courses\\Domain\\Precio.cs",
+              "RelativeToolTip": "Domain\\Precio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T01:28:15.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Calificacion.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\school-courses\\Domain\\Calificacion.cs",
+              "RelativeDocumentMoniker": "Domain\\Calificacion.cs",
+              "ToolTip": "C:\\Users\\chris\\source\\repos\\school-courses\\Domain\\Calificacion.cs",
+              "RelativeToolTip": "Domain\\Calificacion.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T01:16:18.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Curso.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\source\\repos\\school-courses\\Domain\\Curso.cs",
+              "RelativeDocumentMoniker": "Domain\\Curso.cs",
+              "ToolTip": "C:\\Users\\chris\\source\\repos\\school-courses\\Domain\\Curso.cs",
+              "RelativeToolTip": "Domain\\Curso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T01:08:44.649Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
