@@ -16,5 +16,7 @@
         public ICollection<Instructor>? Instructores { get; set; }
 
         public ICollection<CursoInstructor>? CursoInstructores { get; set; }
+
+        public ICollection<Photo>? Photos { get; set; }
     }
 }
