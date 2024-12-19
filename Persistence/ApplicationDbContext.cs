@@ -41,6 +41,30 @@ namespace Persistence
                 .Property(p => p.PrecioPromocion)
                 .HasPrecision(10, 2);
 
+            //Relacion uno a muchos entre la tabla Curso y Photos, un curso tiene muchas fotos
+            modelBuilder.Entity<Curso>()
+                .HasMany(m => m.Photos)
+                .WithOne(m => m.Curso)
+                .HasForeignKey(m => m.CursoId)
+                .IsRequired()
+                .OnDelete(DeleteBehavior.Cascade);
+            //Relacion uno a muchos entre la tabla Curso y Calificacies, un curso tiene varias calificaciones
+            modelBuilder.Entity<Curso>()
+                .HasMany(m => m.Calificaciones)
+                .WithOne(m => m.Curso)
+                .HasForeignKey(m => m.CursoId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Curso>()
+                .HasMany(m => m.Precios)
+                .WithMany(m => m.Cursos)
+                .UsingEntity<CursoPrecio>(
+                    j => j
+                        .HasOne(p => p.Precio )
+                        .WithMany(p  => p.CursoPrecios)
+                );
+
+
         }
     }
 }
