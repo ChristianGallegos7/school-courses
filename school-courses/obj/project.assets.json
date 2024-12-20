@@ -75,32 +75,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cgallegos\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Pxlarized\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cgallegos\\Documents\\Me\\school-courses\\school-courses\\school-courses.csproj",
+      "projectUniqueName": "C:\\Users\\Pxlarized\\Documents\\Mio\\school-courses\\school-courses\\school-courses.csproj",
       "projectName": "school-courses",
-      "projectPath": "C:\\Users\\cgallegos\\Documents\\Me\\school-courses\\school-courses\\school-courses.csproj",
-      "packagesPath": "C:\\Users\\cgallegos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cgallegos\\Documents\\Me\\school-courses\\school-courses\\obj\\",
+      "projectPath": "C:\\Users\\Pxlarized\\Documents\\Mio\\school-courses\\school-courses\\school-courses.csproj",
+      "packagesPath": "C:\\Users\\Pxlarized\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Pxlarized\\Documents\\Mio\\school-courses\\school-courses\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\cgallegos\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Pxlarized\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

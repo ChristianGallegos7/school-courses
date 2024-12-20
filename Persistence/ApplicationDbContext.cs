@@ -55,16 +55,43 @@ namespace Persistence
                 .HasForeignKey(m => m.CursoId)
                 .OnDelete(DeleteBehavior.Restrict);
 
+            //Relacion muchos a muchos entre Curso y Precios
             modelBuilder.Entity<Curso>()
                 .HasMany(m => m.Precios)
                 .WithMany(m => m.Cursos)
                 .UsingEntity<CursoPrecio>(
                     j => j
-                        .HasOne(p => p.Precio )
-                        .WithMany(p  => p.CursoPrecios)
+                        .HasOne(p => p.Precio)
+                        .WithMany(p => p.CursoPrecios)
+                        .HasForeignKey(p => p.PrecioId),
+                    j => j
+                        .HasOne(p => p.Curso)
+                        .WithMany(p => p.CursoPrecios)
+                        .HasForeignKey(p => p.CursoId),
+                    j =>
+                    {
+                        j.HasKey(t => new { t.PrecioId, t.CursoId });
+                    }
+            );
+
+            //Relacion muchos a muchos entre Curso e Instructores
+            modelBuilder.Entity<Curso>()
+                .HasMany(i => i.Instructores)
+                .WithMany(c => c.Cursos)
+                .UsingEntity<CursoInstructor>(
+                    j => j
+                        .HasOne(i => i.Instructor)
+                        .WithMany(i => i.CursosInstructores)
+                        .HasForeignKey(i => i.InstructorId),
+                    j => j
+                        .HasOne(i => i.Curso)
+                        .WithMany(i => i.CursoInstructores)
+                        .HasForeignKey(i => i.CursoId),
+                    j =>
+                    {
+                        j.HasKey(t => new { t.InstructorId, t.CursoId });
+                    }
                 );
-
-
         }
     }
 }
