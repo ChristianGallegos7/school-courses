@@ -5,6 +5,15 @@ namespace Persistence
 {
     public class ApplicationDbContext : DbContext
     {
+
+        public DbSet<Curso>? Cursos { get; set; }
+        public DbSet<Calificacion>? Calificaiones { get; set; }
+
+        public DbSet<Precio>? Precios { get; set; }
+
+        public DbSet<Instructor>? Instructores { get; set; }
+
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlite("Data Source=LocalDatabase.db")
