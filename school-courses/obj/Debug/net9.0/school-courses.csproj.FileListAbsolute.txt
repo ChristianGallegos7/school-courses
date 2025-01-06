@@ -26,7 +26,6 @@ C:\Users\chris\Documents\school-courses\school-courses\obj\Debug\net9.0\staticwe
 C:\Users\chris\Documents\school-courses\school-courses\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.school-courses.props
 C:\Users\chris\Documents\school-courses\school-courses\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.school-courses.props
 C:\Users\chris\Documents\school-courses\school-courses\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\chris\Documents\school-courses\school-courses\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\chris\Documents\school-courses\school-courses\obj\Debug\net9.0\school-c.43DE00B0.Up2Date
 C:\Users\chris\Documents\school-courses\school-courses\obj\Debug\net9.0\school-courses.dll
 C:\Users\chris\Documents\school-courses\school-courses\obj\Debug\net9.0\refint\school-courses.dll

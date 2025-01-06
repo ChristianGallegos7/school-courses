@@ -10,7 +10,7 @@ namespace Persistence
     public class ApplicationDbContext : IdentityDbContext<AppUser>
     {
         public DbSet<Curso>? Cursos { get; set; }
-        public DbSet<Calificacion>? Calificaciones { get; set; } // Corrección de typo
+        public DbSet<Calificacion>? Calificaciones { get; set; }
         public DbSet<Precio>? Precios { get; set; }
         public DbSet<Instructor>? Instructores { get; set; }
 
