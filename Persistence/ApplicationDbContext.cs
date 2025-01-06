@@ -101,6 +101,16 @@ namespace Persistence
                         j.HasKey(t => new { t.InstructorId, t.CursoId });
                     }
                 );
+
+
+            CargarDataSeguridad(modelBuilder);
+        }
+
+        private void CargarDataSeguridad(ModelBuilder modelBuilder){
+            var adminId = Guid.NewGuid().ToString();
+            var clientId = Guid.NewGuid().ToString();
+
+            modelBuilder.Entity<IdentityRol>
         }
     }
 }
